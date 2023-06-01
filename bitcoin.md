@@ -2,7 +2,7 @@
 
 ![btc-usd](https://s2.coinmarketcap.com/static/img/coins/200x200/2083.png)
 
-Lo que se pretende realizar es determinar el precio de la criptomoneda Bitcoin, tomando como referencia los datos históricos del precio del mes de abril de 2023, para poder comparar los resultados con el mes de mayo 2023. Al aprender de estos datos, la red generará pronósticos sobre los precios futuros del Bitcoin, lo que puede ser útil para los inversores en la toma de decisiones informadas.
+El objetivo de este proyecto es emplear una red neuronal para pronosticar el precio de la criptomoneda Bitcoin, tomando como referencia los datos históricos del precio del mes de abril de 2023, esto nos permitirá  comparar los resultados con el costo real del mes de mayo 2023.  
 
 ## La metodología planteada para este proyecto está estructurada de la siguiente forma
 - Recopilación de datos: Se planea utilizar Yahoo Finance, para la recolección de datos de los precios de cierre diarios del  mes de abril de 2023.
