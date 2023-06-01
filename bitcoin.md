@@ -4,6 +4,12 @@
 
 El objetivo de este proyecto es emplear una red neuronal para pronosticar el precio de la criptomoneda Bitcoin, tomando como referencia los datos históricos del precio del mes de abril de 2023, esto nos permitirá  comparar los resultados con el costo real del mes de mayo 2023.  
 
+- Detección de fraudes financieros
+- Valoración de riesgos crediticios
+- Optimización de carteras de inversión
+- Análisis de sentimiento del mercado
+- Pronóstico de precios de acciones
+
 ## La metodología planteada para este proyecto está estructurada de la siguiente forma
 - Recopilación de datos: Se planea utilizar Yahoo Finance, para la recolección de datos de los precios de cierre diarios del  mes de abril de 2023.
 - Preparación de los datos: Los datos se organizarán y limpiarán, para asegurar que su formato es el adecuado para el entrenamiento de la red neuronal. Estos datos serán divididos en conjuntos de entrenamiento y de prueba.
