@@ -20,7 +20,7 @@ El objetivo de este proyecto es emplear una red neuronal para pronosticar el pre
 Análisis de resultados: Examinamos la precisión de las predicciones, comparando con los datos reales. 
 
 ## Implementación
-Primeramente se importan las librearías que serán utilizadas, como 'numpy', 'pandas' 'sklearn' y 'keras' de 'tensorflow'.
+Primeramente se importan las librerías que serán utilizadas, como 'numpy', 'pandas' 'sklearn' y 'keras' de 'tensorflow'.
 ```python 
 import numpy as np
 import pandas as pd
@@ -93,13 +93,13 @@ Epoch 150/150
 <keras.callbacks.History at 0x7ff2eb1bb880>
 <br/>
 <br/>
-Se realiza predicciones utilizando el model entrenado.<br/>
+Se realiza predicciones utilizando el modelo entrenado.<br/>
 Se pasan las características (x) al método 'predict()' y se obtienen las predicciones correspondientes.
 ```python 
 predictions = model.predict(X)
 ```
-En el bucle for se muestra una sección prediccionesy precios reales.<br/>
-Se invierten las transformaciones de escalar utilizando 'scaler.inverse_transform()' para obtener los precios predicho y reles en la escala original para imprimirse en pantalla.
+En el bucle for se muestra una sección predicciones y precios reales.<br/>
+Se invierten las transformaciones de escalar utilizando 'scaler.inverse_transform()' para obtener los precios predicho y reales en la escala original para imprimirse en pantalla.
 ```python 
 for i in range(10):
     predicted_price = scaler.inverse_transform(predictions[i].reshape(-1, 1))
@@ -159,12 +159,10 @@ print("Predicted Price for tomorrow:", predicted_price)
 Predicted Price for tomorrow: [[27010.096]]
 <br/>
 ## Conclusiones
-El precio del Bitcoin puede ser volátil y dificil de predecir debido a existen muchos factores que afectan el precio del Bitcoin.<br/>
-Algunos  de ellos son la demanda, las condiciones económicas y el desarrollo económico.<br/>
-Sin embargo, el análisis de los datos históricos y las tendencias del mercado puede proporcionar información sobre los futuros movimientos de precios.
+El precio del Bitcoin puede ser volátil y difícil de predecir debido a que existen muchos factores que afectan el precio del Bitcoin. Algunos de ellos son la demanda, las condiciones económicas y el desarrollo económico. <br/>Sin embargo, el análisis de los datos históricos y las tendencias del mercado puede proporcionar información sobre los futuros movimientos de precios.
 <br/>
 ## Links
-[colab](https://colab.research.google.com/drive/1SusBNKlOAbf4yxgQ8mQ0vP8SG38M80LF?usp=sharing#scrollTo=4LMZQ24LD3vd)
+[Proyecto en Colab](https://colab.research.google.com/drive/1SusBNKlOAbf4yxgQ8mQ0vP8SG38M80LF?usp=sharing#scrollTo=4LMZQ24LD3vd)
 <br/>
-[canva_presentation](https://www.canva.com/design/DAFlHgS3U9s/IsCoq3G4Th5qQPO3AHk80A/edit?utm_content=DAFlHgS3U9s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Presentación en Canva](https://www.canva.com/design/DAFlHgS3U9s/IsCoq3G4Th5qQPO3AHk80A/edit?utm_content=DAFlHgS3U9s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
